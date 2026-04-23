@@ -1,37 +1,39 @@
 # Diego Fraga / ElToroDM
 
-Low-level programming, embedded systems and bootloaders.  
-Currently experimenting with **RISC-V**, **ESP32-C3** and bare-metal code.
+Independent low-level developer focused on minimal bootloaders, bare-metal bring-up, and hardware-close embedded work.
+
+Current public work centers on ESP32-C3 bootloader experiments and a portable RISC-V reference architecture. I care about clear boot paths, explicit initialization, and code that remains understandable under review.
 
 ---
 
-## 🔧 Focus
+## Focus
 
-- Bootloaders (RISC-V / ESP32)
-- Bare-metal C & Assembly
-- Minimal systems
-- Retro-style demos on microcontrollers
-- Toolchains & low-level debugging
-
-I enjoy understanding what happens **before the OS exists**.
+- Minimal bootloaders for ESP32 RISC-V targets
+- Portable RISC-V boot path experiments
+- Bare-metal C and assembly
+- Early bring-up and low-level debugging
+- Small, auditable systems with minimal dependencies
 
 ---
 
-## 📂 Featured projects
+## Selected Public Work
 
-### 🧠 RISC-V Bootloader
-https://github.com/ElToroDM/riscv-bootloader  
-Small experimental bootloader and low-level experiments.
+### ESP32-C3 Bootloader
+https://github.com/ElToroDM/exerionbit-esp32c3-bootloader
 
-### 💡 Embedded experiments
-More projects coming as I build demos and tools around ESP32-C3 and RISC-V.
+Minimal ESP32-C3 bootloader work focused on clear boot flow, validation, and real-hardware evidence.
+
+### RISC-V Bootloader Reference
+https://github.com/ElToroDM/exerionbit-riscv-bootloader
+
+Portable RISC-V bootloader and supporting low-level experiments used as reference architecture for boot-path work.
 
 ---
 
-## 🛠 Tech
+## Tooling
 
 - C
-- Assembly (RISC-V, x86)
+- Assembly
 - ESP-IDF
 - GCC toolchains
 - QEMU
@@ -39,18 +41,14 @@ More projects coming as I build demos and tools around ESP32-C3 and RISC-V.
 
 ---
 
-## 📫 Contact
+## Working Style
 
-Best way to reach me:
-
-- GitHub Issues on any repo  
-- GitHub Discussions (when enabled)
-
-If you really need email, open an issue asking for it.
+I prefer narrow scope, explicit control over the hardware, and code that can be maintained without heavy frameworks. The goal is simple: make the boot path understandable, reproducible, and useful for real embedded bring-up.
 
 ---
 
-## 🧪 Philosophy
+## Contact
 
-I like small codebases, clear control of hardware and understanding the full boot process.  
-Learning by building minimal systems from scratch.
+GitHub Issues on public repositories are the best initial contact point.
+
+If a discussion needs to move off-platform, open an issue and ask for a direct contact channel.
