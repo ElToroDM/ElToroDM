@@ -1,30 +1,48 @@
 # Diego Fraga / ElToroDM
 
-Independent developer focused on minimal bootloaders, bare-metal bring-up, and hardware-close embedded work.
+Independent bootloader engineer at ExerionBit.
+
+I build minimal, auditable boot paths for ESP32 RISC-V boards, with readable code, explicit control, and evidence-backed validation. Public proof today centers on ESP32-C3 real-hardware work, supported by a portable bare-metal RISC-V reference for architecture review and early port de-risking.
+
+---
+
+## Best Fit
+
+- First-Board Bring-Up
+- Factory and Field Recovery
+- Verified Boot Gate
+- Architecture de-risking review
 
 ---
 
 ## Focus
 
-- Minimal bootloader bring-up for ESP32-C3 and related RISC-V targets
-- Portable RISC-V boot path reference work
+- Minimal bootloader bring-up for ESP32-C3 and other ESP32 RISC-V targets
+- Portable bare-metal RISC-V reference work
 - Bare-metal C and assembly
 - Early board bring-up, validation, and low-level debugging
-- Small, auditable systems with explicit control over the hardware
+- Recovery and update baselines with deterministic behavior
+- Small systems teams can audit, adapt, and fully own
 
 ---
 
 ## What I Optimize For
 
-- Fast, understandable bootloader bring-up
-- Minimal dependencies and narrow scope
-- Code that teams can review, modify, and keep owning
-- Reproducible behavior backed by concrete technical evidence
+- Explicit boot flow and understandable handoff behavior
+- Minimal dependencies and narrow, practical scope
+- Reproducible results tied to validation artifacts and known limits
+- Code teams can review, modify, and carry forward without framework noise
 
 ---
 
 ## Contact
 
-GitHub Issues on public repositories are the best initial contact point.
+Email: exerionbit.diego@gmail.com
 
-If a discussion needs to move off-platform, open an issue and ask for a direct contact channel.
+If you want to start a scoped discussion, send:
+- target SoC or board
+- current boot blocker
+- desired outcome
+- expected timeline
+
+GitHub Issues also work when the discussion is tied to a public repository.
